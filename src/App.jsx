@@ -64,6 +64,7 @@ function App() {
          onSelected={()=> handleSelect('state')}
         >State</TabButton>
         </menu>
+        {tabContent}
       </section>
     </main>
     </div>
