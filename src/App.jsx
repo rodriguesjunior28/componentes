@@ -6,12 +6,6 @@ import { TabButton } from './components/TabButton.jsx';
 import { useState } from 'react';
 import { EXAMPLES } from './Data.js';
 
-
-
-
-
-
-
 function App() {
   const [selectedTopic,setSelectedTopic] = useState(false);
   function handleSelect(selectedButton) {

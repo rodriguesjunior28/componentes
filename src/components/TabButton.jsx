@@ -10,5 +10,5 @@ export const TabButton = ({children,isSelected,onSelected}) => {
             {children} 
         </button>
     </li>
-  )
+  );
 }

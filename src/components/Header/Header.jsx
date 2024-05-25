@@ -2,7 +2,6 @@ import React from 'react';
 import leticiaImg from '../../assets/react-core-concepts.png';
 import './Header.css';
 
-
 const fisrtWord = ['Core','Crucial','Fundamental'];
 function getRandomNumer(max) {
   return Math.floor(Math.random() * (max + 1));
